@@ -1,6 +1,6 @@
-echo "# zahf22.github.io" >> README.md
+echo "# zahf22.github.io" >> index.html
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/zahf22/zahf22.github.io.git
+git remote add origin https://github.com/zahf22/zahf22.github.io
 git push -u origin master
