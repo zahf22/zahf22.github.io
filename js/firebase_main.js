@@ -5,14 +5,16 @@
 
     $(window).on('load', function() {
         var test = "addons";
-	var firebaseConfig = {
-		apiKey: "AIzaSyDE9BhlQioOlCesS-ZWRTrh1HafoC_wWok",
-		authDomain: "dragon-force-studio-cacd6.firebaseapp.com",
-		storageBucket: "dragon-force-studio-cacd6.appspot.com",
-		messagingSenderId: "615867973802",
-		appId: "1:615867973802:web:5865bec554911c7324d0d3",
-		measurementId: "G-GB95LZPBQD"
-	};
+	    const firebaseConfig = {
+  apiKey: "AIzaSyDE9BhlQioOlCesS-ZWRTrh1HafoC_wWok",
+  authDomain: "dragon-force-studio-cacd6.firebaseapp.com",
+  databaseURL: "https://dragon-force-studio-cacd6-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "dragon-force-studio-cacd6",
+  storageBucket: "dragon-force-studio-cacd6.appspot.com",
+  messagingSenderId: "615867973802",
+  appId: "1:615867973802:web:5865bec554911c7324d0d3",
+  measurementId: "G-GB95LZPBQD"
+};
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
         firebase.analytics();
